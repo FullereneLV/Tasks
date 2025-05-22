@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Task3._1
 {
-    interface IOutput
+    interface IMath
     {
-        void Show();
-        void Show(string info);
+        int Max();
+
+        int Min();
+
+        float Avg();
+
+        bool Search(int valueToSearch);
     }
 }
