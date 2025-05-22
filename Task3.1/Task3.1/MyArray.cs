@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3._1
 {
-    public class MyArray : IOutput, IMath
+    public class MyArray : IOutput, IMath, ISort
     {
         public int [] ArInt {  get; set; }
         public string Message { get; set; }
@@ -94,6 +94,64 @@ namespace Task3._1
             }
             Console.WriteLine(result);
             return result;
+        }
+
+        public void SortAsc()
+        {
+            int temp;
+
+            for (int i = 0; i < ArInt.Length - 1; i++)
+
+                for (int j = i + 1; j < ArInt.Length; j++)
+
+                    if (ArInt[i] > ArInt[j])
+                    {
+                        temp = ArInt[i];
+                        ArInt[i] = ArInt[j];
+                        ArInt[j] = temp;
+                    }
+
+            foreach (int value in ArInt)
+            {
+                Console.Write(value + " ");
+            }
+
+            Console.WriteLine();
+        }
+
+        public void SortDesc()
+        {
+            int temp;
+
+            for (int i = 0; i < ArInt.Length - 1; i++)
+
+                for (int j = i + 1; j < ArInt.Length; j++)
+
+                    if (ArInt[i] < ArInt[j])
+                    {
+                        temp = ArInt[i];
+                       ArInt[i] = ArInt[j];
+                        ArInt[j] = temp;
+                    }
+
+            foreach (int value in ArInt)
+            {
+                Console.Write(value + " ");
+            }
+
+            Console.WriteLine();
+        }
+
+        public void SortByParam(bool isAsc)
+        {
+            if(isAsc == false)
+            {
+                SortDesc();
+            }
+            else
+            {
+                SortAsc();
+            }
         }
     }
 }
