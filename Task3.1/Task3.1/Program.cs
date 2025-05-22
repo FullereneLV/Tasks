@@ -13,3 +13,7 @@ array2.Max();
 array2.Avg();
 array2.Search(5);
 array2.Search(11);
+array2.SortDesc();
+array2.SortAsc();
+array.SortByParam(false);
+array.SortByParam(true);
