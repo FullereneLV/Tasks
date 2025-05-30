@@ -50,11 +50,37 @@ static void Task2()
     Console.WriteLine(result3);
     Console.WriteLine("Operator overloading - 10");
     City result4 = city1 - 10;
-    Console.WriteLine(result4.People);
+    Console.WriteLine(city1.People = result4.People);
     Console.WriteLine("Operator overloading + 1000");
     City result5 = city1 + 1000;
     Console.WriteLine(result5.People);
 }
 
+static void Task3()
+{
+    Console.WriteLine("Start task 4.3");
+    CreditCard card = new CreditCard { Money = 5000, cvcCode = 123 };
+    Console.WriteLine("Credit card has money " + card.Money);
+    Console.WriteLine("Operator overloading == 123");
+    bool result = card.cvcCode == 123;
+    Console.WriteLine(result);
+    Console.WriteLine("Operator overloading money > 4000:");
+    bool result1 = card.Money > 4000;
+    Console.WriteLine(result1);
+    Console.WriteLine("Operator overloading money < 5001:");
+    bool result2 = card.Money < 5001;
+    Console.WriteLine(result2);
+    Console.WriteLine("Operator overloading != 222");
+    bool result3 = card.cvcCode!= 222;
+    Console.WriteLine(result3);
+    Console.WriteLine("Operator overloading - 10.00");
+    double result4 = card.Money - 10.00;
+    Console.WriteLine(card.Money = result4);
+    Console.WriteLine("Operator overloading + 1000");
+    double result5 = card.Money + 1000;
+    Console.WriteLine(result5);
+}
+
 StartTask4();
 Task2();
+Task3();
