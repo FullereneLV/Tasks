@@ -1,0 +1,98 @@
+[
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya",
+    "Surname": "Petrov",
+    "Phone": null,
+    "Email": null,
+    "Id": 2,
+    "CreatedAt": "2024-01-04T21:15:00.5742047+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasylyna",
+    "Surname": "Petrov",
+    "Phone": null,
+    "Email": null,
+    "Id": 3,
+    "CreatedAt": "2024-01-04T21:15:10.6132587+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 4,
+    "CreatedAt": "2025-08-13T19:19:09.7572033+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 5,
+    "CreatedAt": "2025-08-13T19:25:43.6643608+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 6,
+    "CreatedAt": "2025-08-13T21:12:06.6789748+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 7,
+    "CreatedAt": "2025-08-13T21:12:33.4053821+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 8,
+    "CreatedAt": "2025-08-13T21:13:40.0826159+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 1,
+    "Experience": 20,
+    "Salary": 0.0,
+    "Name": "Vasya52",
+    "Surname": "Petrov52",
+    "Phone": null,
+    "Email": null,
+    "Id": 9,
+    "CreatedAt": "2025-08-13T21:14:20.4994836+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
